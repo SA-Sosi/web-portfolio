@@ -1,0 +1,83 @@
+body{
+    font-family: 'poppins',sans-serif;
+    margin-left: 0%;      /* bame ebong uporer halka jei gap ta thake serta dur korte*/
+    margin-top: 0%;
+}
+h1{
+    font-size: 40px;
+    /*padding-left: 10px;*/
+
+}
+.color{
+    color: orange;    /*ekta fixed wordke color korte.*/
+}
+.speciality-color1{
+    color: orange;
+   
+}  
+
+
+.half-width{
+    width: 40%;
+    float: left;           /* ekta part er por onno ekta part ke pashe jaiga dite.*/
+    margin: 2%;
+    padding: 2%;
+}
+
+.half-width img{
+    width: 100%;          /*img er joto tok jaiga ache orthat er jaiga joto tok o tototok e nibe.*/
+    height: 500px;
+    width: 600px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url("pictures/top-banner.png");   /*kunai ekta background set korte*/
+    background-repeat: no-repeat;               /*background image ta jate bar bar repeat na hoi*/
+}
+section{
+    height: 600px;   /* ei section er jeno ekta fixed height thake.*/
+    padding-bottom: 50px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    font-weight: 700;
+}
+.middle-banner{
+    background-image: url("pictures/dream-bg.png");   /*kunai ekta background set korte*/
+    background-repeat: no-repeat;               /*background image ta jate bar bar repeat na hoi*/
+    background-position: right;
+    
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 50%;
+}
+.speciality{
+    background-image:url("pictures/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#Art{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(247, 177, 150),tomato);
+    border-image-slice: 1;
+
+    
+}
+#Important{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(49, 19, 216),rgb(238, 14, 52));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+  
